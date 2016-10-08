@@ -1,0 +1,30 @@
+library() //all installed packages
+search()  //shows loaded packages
+
+#installing
+install.packages("ggplot2")
+
+#importing : imported ones have checkmark in `packages` tab
+require("ggplot2") or
+library("ggplot2")
+
+
+#Updating
+update.packages()
+
+#Vignettes
+vignette(package="ggplot2") or
+browseVignettes(package="ggplot2") #more useful :)
+
+#Unloading : By default all the loaded pkgs are unloaded when R quits. However to do manually,
+detach("package:ggplot2", unload = TRUE) or
+simply uncheck it packages tab
+
+#Removing
+Simple click cross button @right in `packages` tab or
+remove.packages("psytabs)
+
+
+
+
+
