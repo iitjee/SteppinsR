@@ -1,0 +1,13 @@
+Shift+cmd+N = New file
+Ctrl + L    = Clears Console
+Cmd+ Ret    = Executes command typed in the text file
+
+
+
+
+
+
+
+
+
+
