@@ -1,0 +1,10 @@
+/* Overview */
+https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-data-science-python/
+
+/* Data */
+https://www.google.co.in/trends/
+
+/* REPOSITORIES */
+https://trello.com/b/rbpEfMld/data-science
+
+
