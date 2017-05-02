@@ -44,10 +44,13 @@ temp <- mutate(
 # Inspect the results
 head(temp)
 
+#VERY IMPORTANT
 # Group by a column
 temp <- group_by(
     .data = temp,  
     Cylinders)
+#The grouping category will now be 'CYlinders'
+#See summarize for it's importance
     
 # Inspect the results
 head(temp)
@@ -56,7 +59,8 @@ head(temp)
 temp <- summarize(
     .data = temp, 
     Avg.Consumption = mean(Consumption))
-    
+#Note that it takes mean of consumptions values of each type in Cylinder category. (since, grouping category is given Cylinder)
+
 # Inspect the results
 head(temp)
 
@@ -64,17 +68,19 @@ head(temp)
 temp <- arrange(
     .data = temp, 
     desc(Avg.Consumption))
+
     
 # Inspect the results
 head(temp)
 
 # Convert to data frame
 efficiency <- as.data.frame(temp)
-
+#Coercing table to a dataframe
 
 # Inspect the results
 print(efficiency);
 
+#Alternatively we can chain all the above methods using a pipe operator
 # Chain methods together
 efficiency <- cars %>%
     select(Fuel.Economy, Cylinders, Transmission) %>%
