@@ -7,6 +7,8 @@ Shift+Cmd+C = comments selection
 
 
 
+ls()  #list all variables in workspace
+
 
 
 
