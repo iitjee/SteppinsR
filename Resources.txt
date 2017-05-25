@@ -7,4 +7,16 @@ https://www.google.co.in/trends/
 /* REPOSITORIES */
 https://trello.com/b/rbpEfMld/data-science
 
+flowingdata.com
+r-bloggers.com
+r-exercises.com
+revolutionanalytics.com
 
+
+
+PS Courses:
+R programming FUndamentals
+RStudio Get Started
+Exploratory Data Analysis with R
+
+3 part Data visualization courses
